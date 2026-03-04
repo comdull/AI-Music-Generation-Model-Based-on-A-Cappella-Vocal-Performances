@@ -1,2 +1,10 @@
-# AI-Music-Generation-Model-Based-on-A-Cappella-Vocal-Performances
-This project is a simplified implementation code of the paper with the same title, aiming to build a low-threshold AI music generation model that can generate musical works based on a cappella audio and lyrics.
+
+## 项目介绍
+本项目是《基于人声清唱的AI音乐生成模型》论文的简单实现代码，旨在实现依托STFT算法、NLP、Transformer等，搭建低门槛AI音乐生成模型，可基于清唱音频与歌词生成音乐作品。项目包含完整的Web程序设计，构建“清唱音频转MIDI——情感风格分析——多音轨编曲生成”的技术架构。该项目以AI赋能音乐创作普惠化，在大幅降低创作壁垒的同时，完整保留创作者在词曲中蕴含的人文表达，激活大众文化创造力，兼具社会价值与产业潜力。
+
+## 运行方式
+服务器端：
+首先将文件夹移动至D盘根目录下，之后启动.bat文件即可一键启动服务。
+请注意.bat文件中的ip地址需要换成服务器自己的ipv4地址。
+客户端：
+需要和服务器端连接相同局域网，对网络的具体要求与服务器端防火墙有关。在客户端启动web.html即可运用模型。
